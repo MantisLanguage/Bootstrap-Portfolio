@@ -54,8 +54,8 @@ margin: 15px;
     background: #666666;
     border-top: 8px solid #4aaaa5;
     height: 50px;
-    position: static;
-    right: 0;bottom:0;left:0;
+    position: fixed;
+    right: 0;bottom:0%;left:0;
     clear: both;
   
 }
@@ -127,4 +127,36 @@ h3  {
 
 .navbar {
     position: relative;
+}
+
+.icecream   {
+
+    float: left;
+}
+.grace {
+    float: left;
+
+}
+
+.volleyball {
+
+float: right;
+}
+
+.sleep {
+float: left;
+
+}
+
+.bbx{
+float: left;
+}
+nav  {
+    border-bottom: grey;
+    border-width: 3px;
+}
+
+.v {
+    float: right;
+    position: inline-block;
 }
