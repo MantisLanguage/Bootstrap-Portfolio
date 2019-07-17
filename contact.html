@@ -8,7 +8,7 @@
     <title>Index</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link href="customcss.css">
+        <link rel="stylesheet" type="text/css" href="custom.css">
 </head>
     
     <body>
@@ -20,14 +20,15 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link" href="contact.html">Contact</a>
+                <a class="about" href="index.html">About <span class="sr-only">(current)</span></a>
+                <a class="portfolio" href="portfolio.html">Portfolio</a>
+                <a class="contact" href="contact.html">Contact</a>
             </div>
         </div>
     </nav>
 
     <form>
+        <div class="container">
         <div class="form-group">
                 <h1>Contact</h1>
             <label for="exampleFormControlInput1">Name</label>
@@ -38,16 +39,17 @@
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="supercoolkid@aol.com">
         </div>
         <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
+            <label for="textarea2">Message</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Better make it gooooddd" rows="3"></textarea>
-            <button type="button" class="btn btn-outline-success">Submit</button>
+            <button type="button" class="submitb">Submit</button>
         </div>
+    </div>
     </form>
 
 
     <footer class="page-footer font-small grey">
 
-            <div class="footer-copyright text-center py-3">Copyright© 
+            <div class="footer">Copyright© 
             </div>
           </footer>
     </body>
